@@ -4,7 +4,7 @@
 > 11월 10일에 진행하는 UBUNTU-Fest 행사 소개페이지 입니다. -
 [[Link]](https://ubuntu-fest.github.io)
 
-### Page referece
+### Reference page
 [[HERE]](https://meltingcon.github.io/2018/)
 
 ### Contributing
@@ -15,25 +15,25 @@ Please contribute this page if you're interested in helping!
 ├── _config.yml // for liquid templating language
 ├── _includes // reusable HTML file with liquid tag
 |   ├── btn.html // for nav_registration.md
-|   ├── footer.html // unusable now
+|   ├── footer.html // footer area
 |   ├── nav.html // navigation bar
-|   ├── scripts.html // add bootstrap.js 
-|   └── sponsors.html // maybe footer area
+|   ├── scripts.html // add bootstrap.js
+|   └── sponsors.html // viewing sponsors list
 ├── _layouts
 |   ├── frame.html // HTML head area
 |   ├── home.html // contents on main page(main-header)
 |   └── page.html // ?page-header
-├── assets //
+├── assets // for page styling
 |   ├── css
 |   ├── fonts
 |   ├── imgs
 |   ├── js
 |   └── webfonts
-├── nav_about.md
-├── nav_contact.md
-├── nav_location.md
-├── nav_registration.md
-├── nav_schedules.md
-├── nav_sponsors.html
+├── nav_about.md // 소개
+├── nav_contact.md // 문의
+├── nav_location.md // 장소
+├── nav_registration.md // 등록
+├── nav_schedules.md // 일정
+├── nav_sponsors.html // 스폰서
 └── index.md
 ```
