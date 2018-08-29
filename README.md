@@ -29,5 +29,11 @@ Please contribute this page if you're interested in helping!
 |   ├── imgs
 |   ├── js
 |   └── webfonts
+├── nav_about.md
+├── nav_contact.md
+├── nav_location.md
+├── nav_registration.md
+├── nav_schedules.md
+├── nav_sponsors.html
 └── index.md
 ```
