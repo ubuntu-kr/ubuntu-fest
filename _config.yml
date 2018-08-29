@@ -1,0 +1,40 @@
+title: UBUNTU-Fest 2018
+email: korea.ubuntu@gmail.com
+description: UBUNTU-Fest 2018
+baseurl: ""
+url: "https://ubuntu-fest.github.io"
+
+github_username: ubuntu-fest
+
+copyright: MIT License
+
+
+# Location & time
+period: "2018년 11월 10일 오후 13:00 ~ 오후 18:00"
+location: "충남대학교"
+address: "대전광역시 유성구 궁동 대학로 99"
+location_query: "충남대학교"
+
+# Event Sponsors
+sponsors:
+  - name: 캐노니컬
+    image: CANONICAL.jpg
+    url: https://www.canonical.com
+    desc: >
+      The company behind Ubuntu
+
+# Custom Collection
+collections:
+  sessions:
+    title: Sessions
+    output: true
+    permalink: "/session/:path"
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+exclude:
+  - Gemfile
+  - Gemfile.lock

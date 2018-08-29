@@ -1,0 +1,14 @@
+<section style="background:#E95420; padding-top:32px; padding-bottom:32px; color:#FFFFFF">
+  <div class="container">
+    <h2 style="padding-top:5px; padding-bottom:5px;">스폰서</h2>
+    <div class="row">
+      {% for sponsor in site.sponsors %}
+      <div class="col-6 col-md-4">
+        <a href="{{ sponsor.url }}">
+          <img src="{{ site.baseurl }}/assets/imgs/{{ sponsor.image }}" alt="{{ sponsor.name }}" style="height: 50px">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
