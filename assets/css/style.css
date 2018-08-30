@@ -42,3 +42,14 @@
 .page-header i{
   padding: 16px;
 }
+
+.btn-primary {
+    color: #FFFFFF;
+    background-color: #6B4C61;
+    border-color: #BFB2BB; /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #FFFFFF;
+    background-color: #806678;
+    border-color: #BFB2BB; /*set the color you want here*/
+}
