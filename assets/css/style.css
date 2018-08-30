@@ -1,14 +1,18 @@
+
 .main-header{
   text-align: center;
+  font-family: Ubuntu;
   padding-top: 20vh;
   padding-bottom: 20vh;
 }
 
 .main-header > h1{
   font-size: 4em;
+  font-family: Ubuntu;
 }
 .main-header > p{
   font-size: 3em;
+  font-family: Ubuntu;
 }
 
 .box-left{
