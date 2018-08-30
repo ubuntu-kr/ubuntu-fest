@@ -1,31 +1,21 @@
-<section style="background:#DEDBD8; padding-top:15px; padding-bottom:8px; color:#FFFFFF">
+<section style="background:#F29879; padding-top:15px; padding-bottom:8px; color:#FFFFFF">
   <div class="container">
-    <h2 style="padding-top:5px; padding-bottom:5px;">Sponsors</h2>
+    <h2 style="padding-top:5px; padding-bottom:5px; text-align:center;">Co-host</h2>
     <div class="row">
       {% for sponsor in site.sponsors %}
-      <div style="padding: 5px 5px 5px 5px;">
-        <a href="{{ sponsor.url }}">
-          <img src="{{ site.baseurl }}/assets/imgs/{{ sponsor.image }}" alt="{{ sponsor.name }}" style="height: 50px">
+      <div style="margin: auto; float:center; background:#FFFFFF">
+        <a href="{{ supporters.url }}">
+          <img src="{{ site.baseurl }}/assets/imgs/CNU.jpg" alt="{{ supporters.name }}" style="height: 50px">
         </a>
-      </div>
-      <div style="padding: 5px 5px 5px 5px">
-        <a href="{{ host-a.url }}">
-          <img src="{{ site.baseurl }}/assets/imgs/KAGGLE.png" alt="{{ host-a.name }}" style="height: 50px">
-        </a>
-      </div>
-      <div style="padding: 5px 5px 5px 5px">
-        <a href="{{ host-b.url }}">
-          <img src="{{ site.baseurl }}/assets/imgs/KERAS.png" alt="{{ host-b.name }}" style="height: 50px">
-        </a>
-      </div>
-      <div style="padding: 5px 5px 5px 5px">
         <a href="{{ host-c.url }}">
           <img src="{{ site.baseurl }}/assets/imgs/UBUNTU.png" alt="{{ host-c.name }}" style="height: 50px">
         </a>
-      </div>
-      <div style="padding: 5px 5px 5px 5px">
-        <a href="{{ supporters.url }}">
-          <img src="{{ site.baseurl }}/assets/imgs/CNU.jpg" alt="{{ supporters.name }}" style="height: 50px">
+        <a href="{{ host-b.url }}">
+          <img src="{{ site.baseurl }}/assets/imgs/KERAS.png" alt="{{ host-b.name }}" style="height: 50px">
+        </a>
+
+        <a href="{{ host-a.url }}">
+          <img src="{{ site.baseurl }}/assets/imgs/KAGGLE.png" alt="{{ host-a.name }}" style="height: 50px">
         </a>
       </div>
       {% endfor %}

@@ -14,41 +14,18 @@ permalink: /supporters/
 <div class="container" style="padding-top:32px; padding-bottom:32px;">
   <div class="row">
     <div style="padding: 5px 5px 5px 5px">
-    {% for sponsor in site.sponsors %}
+    {% for supporters in site.supporters %}
     <div class="card" style="width: 20rem;">
-      <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ sponsor.image }}" alt="{{ sponsor.name }}">
+      <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ supporters.image }}" alt="{{ supporters.name }}">
       <div class="card-body">
-        <h5 class="card-title">{{ sponsor.name }}</h5>
-        <p class="card-text">{{ sponsor.desc }}</p>
-        <a href="{{ sponsor.url }}" class="btn btn-primary">웹사이트 방문</a>
+        <h5 class="card-title">{{ supporters.name }}</h5>
+        <p class="card-text">{{ supporters.desc }}</p>
+        <a href="{{ supporters.url }}" class="btn btn-primary">웹사이트 방문</a>
       </div>
     </div>
     {% endfor %}
     </div>
-    <div style="padding: 5px 5px 5px 5px">
-    {% for host-a in site.host-a %}
-    <div class="card" style="width: 20rem;">
-      <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ host-a.image }}" alt="{{ host-a.name }}">
-      <div class="card-body">
-        <h5 class="card-title">{{ host-a.name }}</h5>
-        <p class="card-text">{{ host-a.desc }}</p>
-        <a href="{{ host-a.url }}" class="btn btn-primary">웹사이트 방문</a>
-      </div>
-    </div>
-  </div>
-    {% endfor %}
-    <div style="padding: 5px 5px 5px 5px">
-    {% for host-b in site.host-b %}
-    <div class="card" style="width: 20rem;">
-      <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ host-b.image }}" alt="{{ host-b.name }}">
-      <div class="card-body">
-        <h5 class="card-title">{{ host-b.name }}</h5>
-        <p class="card-text">{{ host-b.desc }}</p>
-        <a href="{{ host-b.url }}" class="btn btn-primary">웹사이트 방문</a>
-      </div>
-    </div>
-    {% endfor %}
-    </div>
+
     <div style="padding: 5px 5px 5px 5px">
     {% for host-c in site.host-c %}
     <div class="card" style="width: 20rem;">
@@ -61,14 +38,28 @@ permalink: /supporters/
     </div>
     {% endfor %}
     </div>
+    
     <div style="padding: 5px 5px 5px 5px">
-    {% for supporters in site.supporters %}
+    {% for host-b in site.host-b %}
     <div class="card" style="width: 20rem;">
-      <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ supporters.image }}" alt="{{ supporters.name }}">
+      <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ host-b.image }}" alt="{{ host-b.name }}">
       <div class="card-body">
-        <h5 class="card-title">{{ supporters.name }}</h5>
-        <p class="card-text">{{ supporters.desc }}</p>
-        <a href="{{ supporters.url }}" class="btn btn-primary">웹사이트 방문</a>
+        <h5 class="card-title">{{ host-b.name }}</h5>
+        <p class="card-text">{{ host-b.desc }}</p>
+        <a href="{{ host-b.url }}" class="btn btn-primary">웹사이트 방문</a>
+      </div>
+    </div>
+    {% endfor %}
+    </div>
+
+    <div style="padding: 5px 5px 5px 5px">
+    {% for host-a in site.host-a %}
+    <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ host-a.image }}" alt="{{ host-a.name }}">
+      <div class="card-body">
+        <h5 class="card-title">{{ host-a.name }}</h5>
+        <p class="card-text">{{ host-a.desc }}</p>
+        <a href="{{ host-a.url }}" class="btn btn-primary">웹사이트 방문</a>
       </div>
     </div>
     {% endfor %}
