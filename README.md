@@ -1,7 +1,7 @@
-# UBUNTU-Fest 2018
+# Ubunt Fest 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-> 11월 10일에 진행하는 UBUNTU-Fest 행사 소개페이지 입니다. - [[Link]](https://ubuntu-kr.github.io/ubunut-fest)
+> This repository is introduce page of Ubuntu Fest(11/10, 2018) - [[Link]](https://ubuntu-kr.github.io/ubuntu-fest)
 
 
 ### Contributing
