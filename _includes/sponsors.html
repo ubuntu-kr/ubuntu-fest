@@ -2,23 +2,28 @@
   <div class="container">
     <h2 style="padding-top:5px; padding-bottom:5px; text-align:center;">Co-host</h2>
     <div class="row">
-      {% for sponsor in site.sponsors %}
-      <div style="margin: auto; float:center; background:#FFFFFF">
-        <a href="{{ supporters.url }}">
-          <img src="{{ site.baseurl }}/assets/imgs/CNU.jpg" alt="{{ supporters.name }}" style="height: 50px">
-        </a>
-        <a href="{{ host-c.url }}">
-          <img src="{{ site.baseurl }}/assets/imgs/UBUNTU.png" alt="{{ host-c.name }}" style="height: 50px">
-        </a>
+      <div style="margin: auto; float:center; text-align:center; background:#FFFFFF">
+        {% for host-b in site.host-b %}
         <a href="{{ host-b.url }}">
-          <img src="{{ site.baseurl }}/assets/imgs/KERAS.png" alt="{{ host-b.name }}" style="height: 50px">
+          <img src="{{ site.baseurl }}/assets/imgs/{{ host-b.image }}" alt="{{ host-b.name }}" style="height: 100px">
         </a>
-
+        {% endfor %}
+        {% for host-a in site.host-a %}
         <a href="{{ host-a.url }}">
-          <img src="{{ site.baseurl }}/assets/imgs/KAGGLE.png" alt="{{ host-a.name }}" style="height: 50px">
+          <img src="{{ site.baseurl }}/assets/imgs/{{ host-a.image }}" alt="{{ host-a.name }}" style="height: 100px">
         </a>
+        {% endfor %}
+        {% for supporters in site.supporters %}
+        <a href="{{ supporters.url }}">
+          <img src="{{ site.baseurl }}/assets/imgs/{{ supporters.image }}" alt="{{ supporters.name }}" style="height: 100px">
+        </a>
+        {% endfor %}
+        {% for host-c in site.host-c %}
+        <a href="{{ host-c.url }}">
+          <img src="{{ site.baseurl }}/assets/imgs/{{ host-c.image }}" alt="{{ host-c.name }}" style="height: 100px">
+        </a>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
   </div>
 </section>
