@@ -34,7 +34,17 @@ $ git push origin gh-pages
 # Delete master branch
 $ git push origin :master
 ```
+### Link repository to another repository [[Link]](http://zeddios.tistory.com/5)
+```
+$ git remote -v
+$ git clone --mirror [originally repository URL]
+$ git remote set-url --push origin [new repository URL]
+$ cd [dir]
+$ git push --mirror
 
+# verification 
+$ git remote -v
+```
 ### jekyll folder strucure
 ```
 ├── _config.yml // for liquid templating language
