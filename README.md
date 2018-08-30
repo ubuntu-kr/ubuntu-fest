@@ -10,6 +10,31 @@
 ### Contributing
 Please contribute this page if you're interested in helping!
 
+### How to make general repository for gh-pages
+```shell
+$ cd repo
+
+# Creates our branch, without any parents (it's an orphan!)
+$ git checkout --orphan gh-pages
+
+# Switched to a new branch 'gh-pages'
+
+# Remove all files from the old working tree
+$ git rm -rf .
+
+$ rm '.gitignore'
+
+$ echo "My GitHub Page" > index.html
+$ git add .
+$ git commit -a -m "First pages commit"
+$ git push origin gh-pages
+
+# After change of default branch 
+
+# Delete master branch
+$ git push origin :master
+```
+
 ### jekyll folder strucure
 ```
 ├── _config.yml // for liquid templating language
