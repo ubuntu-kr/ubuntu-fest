@@ -10,7 +10,7 @@
 ### Contributing
 Please contribute this page if you're interested in helping!
 
-### How to make general repository for gh-pages
+### How to make general repository for gh-pages [[Link]](https://help.github.com/articles/creating-project-pages-using-the-command-line/)
 ```shell
 $ cd repo
 
