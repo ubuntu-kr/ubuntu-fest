@@ -1,7 +1,7 @@
 # Ubunt Fest 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-> This repository is introduce page of Ubuntu Fest(11/10, 2018) - [[Link]](https://ubuntu-kr.github.io/ubuntu-fest)
+> This repository is introduce about Ubuntu Fest(11/10, 2018) - [[Link]](https://ubuntu-kr.github.io/ubuntu-fest)
 
 
 ### Contributing
