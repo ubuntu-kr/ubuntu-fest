@@ -34,6 +34,6 @@ Please contribute this page if you're interested in helping!
 ├── nav_location.md // 장소
 ├── nav_registration.md // 등록
 ├── nav_schedules.md // 일정
-├── nav_sponsors.html // 스폰서
+├── nav_supporters.html // 주최
 └── index.md
 ```
