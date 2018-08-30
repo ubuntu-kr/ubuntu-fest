@@ -1,17 +1,17 @@
 # UBUNTU-Fest 2018
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-> 11월 10일에 진행하는 UBUNTU-Fest 행사 소개페이지 입니다. -
-[[Link]](https://ubuntu-fest.github.io)
+> 11월 10일에 진행하는 UBUNTU-Fest 행사 소개페이지 입니다. - [[Link]](https://ubuntu-kr.github.io/ubunut-fest)
 
-### Reference page
-[[HERE]](https://meltingcon.github.io/2018/)
 
 ### Contributing
 Please contribute this page if you're interested in helping!
 
-### How to make general repository for gh-pages [[Link]](https://help.github.com/articles/creating-project-pages-using-the-command-line/)
-```shell
+### Reference page
+[[HERE]](https://meltingcon.github.io/2018/)
+
+### How to make general repository for gh-pages - [[Link]](https://help.github.com/articles/creating-project-pages-using-the-command-line/)
+```bash
 $ cd repo
 
 # Creates our branch, without any parents (it's an orphan!)
@@ -34,8 +34,9 @@ $ git push origin gh-pages
 # Delete master branch
 $ git push origin :master
 ```
-### Link repository to another repository [[Link]](http://zeddios.tistory.com/5)
-```
+
+### Link repository to another repository - [[Link]](http://zeddios.tistory.com/5)
+```bash
 $ git remote -v
 $ git clone --mirror [originally repository URL]
 $ git remote set-url --push origin [new repository URL]
@@ -45,6 +46,7 @@ $ git push --mirror
 # verification 
 $ git remote -v
 ```
+
 ### jekyll folder strucure
 ```
 ├── _config.yml // for liquid templating language
