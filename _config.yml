@@ -17,11 +17,39 @@ location_query: "충남대학교"
 
 # Event Sponsors
 sponsors:
-  - name: 캐노니컬
+  - name: 캐노니컬(example)
     image: CANONICAL.jpg
     url: https://www.canonical.com
     desc: >
       The company behind Ubuntu
+
+supporters:
+  - name: 충남대학교 SW중심대학
+    image: CNU.jpg
+    url: https://www.facebook.com/cnuwise/
+    desc: >
+      충남대학교 공과대학 SW중심대학 사업단
+
+host-a:
+  - name: Kaggle Korea
+    image: KAGGLE.png
+    url: https://www.facebook.com/groups/230717130993727/
+    desc: >
+      함께 공부해서, 함께 나눕시다
+
+host-b:
+  - name: Keras Korea
+    image: KERAS.png
+    url: https://www.facebook.com/groups/KerasKorea/
+    desc: >
+      케라스, 그 간결함에 빠지다
+
+host-c:
+  - name: ubuntu
+    image: UBUNTU.png
+    url: https://www.ubuntu-kr.org
+    desc: >
+      우분투 한국 커뮤니티
 
 # Custom Collection
 collections:
