@@ -26,18 +26,6 @@ permalink: /supporters/
     {% endfor %}
     </div>
     <div style="padding: 5px 5px 5px 5px">
-    {% for supporters in site.supporters %}
-    <div class="card" style="width: 20rem;">
-      <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ supporters.image }}" alt="{{ supporters.name }}">
-      <div class="card-body">
-        <h5 class="card-title">{{ supporters.name }}</h5>
-        <p class="card-text">{{ supporters.desc }}</p>
-        <a href="{{ supporters.url }}" class="btn btn-primary">웹사이트 방문</a>
-      </div>
-    </div>
-    {% endfor %}
-    </div>
-    <div style="padding: 5px 5px 5px 5px">
     {% for host-a in site.host-a %}
     <div class="card" style="width: 20rem;">
       <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ host-a.image }}" alt="{{ host-a.name }}">
@@ -69,6 +57,18 @@ permalink: /supporters/
         <h5 class="card-title">{{ host-c.name }}</h5>
         <p class="card-text">{{ host-c.desc }}</p>
         <a href="{{ host-c.url }}" class="btn btn-primary">웹사이트 방문</a>
+      </div>
+    </div>
+    {% endfor %}
+    </div>
+    <div style="padding: 5px 5px 5px 5px">
+    {% for supporters in site.supporters %}
+    <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ supporters.image }}" alt="{{ supporters.name }}">
+      <div class="card-body">
+        <h5 class="card-title">{{ supporters.name }}</h5>
+        <p class="card-text">{{ supporters.desc }}</p>
+        <a href="{{ supporters.url }}" class="btn btn-primary">웹사이트 방문</a>
       </div>
     </div>
     {% endfor %}
