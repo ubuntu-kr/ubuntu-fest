@@ -2,7 +2,7 @@
 layout: frame
 title: ": Supporters"
 # icon: <i class="far fa-building"></i><i class="far fa-handshake"></i>
-permalink: /sponsors/
+permalink: /supporters/
 ---
 <section class="page-header">
   <div class="container">
@@ -13,8 +13,9 @@ permalink: /sponsors/
 </section>
 <div class="container" style="padding-top:32px; padding-bottom:32px;">
   <div class="row">
+    <div style="padding: 10px 10px 10px 10px">
     {% for sponsor in site.sponsors %}
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 22rem;">
       <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ sponsor.image }}" alt="{{ sponsor.name }}">
       <div class="card-body">
         <h5 class="card-title">{{ sponsor.name }}</h5>
@@ -23,12 +24,10 @@ permalink: /sponsors/
       </div>
     </div>
     {% endfor %}
-  </div>
-</div>
-<div class="container" style="padding-top:32px; padding-bottom:32px;">
-  <div class="row">
+    </div>
+    <div style="padding: 10px 10px 10px 10px">
     {% for supporters in site.supporters %}
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 22rem;">
       <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ supporters.image }}" alt="{{ supporters.name }}">
       <div class="card-body">
         <h5 class="card-title">{{ supporters.name }}</h5>
@@ -37,12 +36,10 @@ permalink: /sponsors/
       </div>
     </div>
     {% endfor %}
-  </div>
-</div>
-<div class="container" style="padding-top:32px; padding-bottom:32px;">
-  <div class="row">
+    </div>
+    <div style="padding: 10px 10px 10px 10px">
     {% for host-a in site.host-a %}
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 22rem;">
       <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ host-a.image }}" alt="{{ host-a.name }}">
       <div class="card-body">
         <h5 class="card-title">{{ host-a.name }}</h5>
@@ -50,13 +47,11 @@ permalink: /sponsors/
         <a href="{{ host-a.url }}" class="btn btn-primary">웹사이트 방문</a>
       </div>
     </div>
-    {% endfor %}
   </div>
-</div>
-<div class="container" style="padding-top:32px; padding-bottom:32px;">
-  <div class="row">
+    {% endfor %}
+    <div style="padding: 10px 10px 10px 10px">
     {% for host-b in site.host-b %}
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 22rem;">
       <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ host-b.image }}" alt="{{ host-b.name }}">
       <div class="card-body">
         <h5 class="card-title">{{ host-b.name }}</h5>
@@ -65,12 +60,10 @@ permalink: /sponsors/
       </div>
     </div>
     {% endfor %}
-  </div>
-</div>
-<div class="container" style="padding-top:32px; padding-bottom:32px;">
-  <div class="row">
+    </div>
+    <div style="padding: 10px 10px 10px 10px">
     {% for host-c in site.host-c %}
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 22rem;">
       <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ host-c.image }}" alt="{{ host-c.name }}">
       <div class="card-body">
         <h5 class="card-title">{{ host-c.name }}</h5>
@@ -79,5 +72,7 @@ permalink: /sponsors/
       </div>
     </div>
     {% endfor %}
+    </div>
   </div>
 </div>
+{% include sponsors.html %}
