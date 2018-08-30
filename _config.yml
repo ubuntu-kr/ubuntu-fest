@@ -3,7 +3,7 @@ email: korea.ubuntu@gmail.com
 description: Ubuntu Fest
 baseurl: ""
 url: "https://ubuntu-fest.github.io"
-
+registration-url: "https://festa.io/"
 github_username: ubuntu-fest
 
 copyright: MIT License

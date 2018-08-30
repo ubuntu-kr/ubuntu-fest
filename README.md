@@ -32,7 +32,7 @@ Please contribute this page if you're interested in helping!
 ├── nav_about.md // 소개
 ├── nav_contact.md // 문의
 ├── nav_location.md // 장소
-├── nav_registration.md // 등록
+├── nav_registration.md // 등록 - not use
 ├── nav_schedules.md // 일정
 ├── nav_supporters.html // 주최
 └── index.md
