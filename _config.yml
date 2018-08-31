@@ -1,8 +1,8 @@
 title: Ubuntu Fest
 email: korea.ubuntu@gmail.com
 description: Ubuntu Fest
-baseurl: "/ubuntu-fest"
-url: "https://ubuntu-kr.github.io"
+baseurl: ""
+url: "https://fest.ubuntu-kr.org"
 registration-url: "https://festa.io/"
 github_username: ubuntu-fest
 
