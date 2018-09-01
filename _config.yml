@@ -18,7 +18,7 @@ location_query: "충남대학교"
 
 # Event Sponsors
 sponsors:
-  - name: 캐노니컬(example)
+    - name: 캐노니컬
     image: CANONICAL.jpg
     url: https://www.canonical.com
     desc: >
@@ -46,11 +46,11 @@ host-b:
       케라스, 그 간결함에 빠지다
 
 host-c:
-  - name: ubuntu
+  - name: 우분투 한국 커뮤니티
     image: UBUNTU.png
     url: https://www.ubuntu-kr.org
     desc: >
-      우분투 한국 커뮤니티
+      우분투를 사용하는 사람들의 모임
 
 # Custom Collection
 collections:
