@@ -4,14 +4,14 @@ title: ": Supporters"
 # icon: <i class="far fa-building"></i><i class="far fa-handshake"></i>
 permalink: /supporters/
 ---
-<section class="page-header">
-  <div class="container">
-    <h1>{{ page.icon }}<h1>
+<section class="page-header" style="padding-bottom:1px">
+  <div class="container" style="color:#FFFFFF;">
     <h1>{{ page.title }}</h1>
     <p>행사를 열고 진행하는데 도움을 주신 분들입니다.</p>
   </div>
 </section>
-<div class="container" style="padding-top:32px; padding-bottom:32px; ">
+
+  <div class="container" style="padding-top:32px; padding-bottom:32px; ">
   <div class="row">
     <div style="padding: 5px 5px 5px 5px; margin: auto; float:center; text-align:center">
     {% for host-b in site.host-b %}
@@ -38,18 +38,6 @@ permalink: /supporters/
     </div>
     {% endfor %}
     </div>
-    <div style="padding: 5px 5px 5px 5px; margin: auto; float:center; text-align:center">
-    {% for supporters in site.supporters %}
-    <div class="card" style="width: 20rem; height: auto;">
-      <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ supporters.image }}" alt="{{ supporters.name }}" style="max-width: 100%; height: auto;">
-      <div class="card-body">
-        <h5 class="card-title">{{ supporters.name }}</h5>
-        <p class="card-text">{{ supporters.desc }}</p>
-        <a href="{{ supporters.url }}" class="btn btn-primary">웹사이트 방문</a>
-      </div>
-    </div>
-    {% endfor %}
-    </div>
 
     <div style="padding: 5px 5px 5px 5px; margin: auto; float:center; text-align:center">
     {% for host-c in site.host-c %}
@@ -59,6 +47,19 @@ permalink: /supporters/
         <h5 class="card-title">{{ host-c.name }}</h5>
         <p class="card-text">{{ host-c.desc }}</p>
         <a href="{{ host-c.url }}" class="btn btn-primary">웹사이트 방문</a>
+      </div>
+    </div>
+    {% endfor %}
+    </div>
+
+    <div style="padding: 5px 5px 5px 5px; margin: auto; float:center; text-align:center">
+    {% for supporters in site.supporters %}
+    <div class="card" style="width: 20rem; height: auto;">
+      <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ supporters.image }}" alt="{{ supporters.name }}" style="max-width: 100%; height: auto;">
+      <div class="card-body">
+        <h5 class="card-title">{{ supporters.name }}</h5>
+        <p class="card-text">{{ supporters.desc }}</p>
+        <a href="{{ supporters.url }}" class="btn btn-primary">웹사이트 방문</a>
       </div>
     </div>
     {% endfor %}
