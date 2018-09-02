@@ -1,0 +1,30 @@
+---
+layout: frame
+---
+<section class="page-header">
+  <div class="container">
+    <h2 style="color:#FFFFFF; font-size: 3em">Session info</h2>
+  </div>
+</section>
+<div class="container" style="padding: 32px;">
+  <h1>{{ page.title }}</h1>
+  <h3>
+    <span class="badge badge-secondary">{{page.duration}}</span>
+  </h3><br>
+    {% for speaker in page.speakers %}
+      <div class="media">
+        <img class="mr-3"
+        {% if speaker.image != "" %} src="{{speaker.image}}"
+        {% else %} src="{{site.baseurl}}/assets/imgs/placeholder.png" {% endif %} alt="{{speaker.name}}"
+          style="height: 110px;">
+        <div class="media-body">
+          <h5 class="mt-0">{{speaker.name}}</h5>
+          <p>{{speaker.org}}</p>
+          <p>{{speaker.desc}}</p>
+        </div>
+      </div>
+    {% endfor %}<br>
+
+  {{ content }}
+</div>
+{% include sponsors.html %}

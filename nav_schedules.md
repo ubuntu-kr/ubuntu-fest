@@ -4,23 +4,43 @@ title: ": Schedules"
 #icon: <i class="fas fa-info-circle"></i>
 permalink: /schedules/
 ---
+<div class="alert alert-info" role="alert">
+  (발표 제목을 클릭하여 발표 자료 관련 내용을 확인하실 수 있습니다.)
+</div>
 
-<!--
-|      시간     |                    행사 내용                   |    발표자   |
-|:-------------:|:----------------------------------------------:|:-----------:|
-| 13:00 ~ 13:10 |                      등록                      |             |
-| 13:10 ~ 13:20 |                    일정 안내                   |             |
-| 13:20 ~ 13:40 |                  커뮤니티 홍보                 |             |
-| 13:40 ~ 14:20 |                우분투에서 딥러닝               |    임근영   |
-| 14:20 ~ 14:30 |                      휴식                      |             |
-| 14:30 ~ 15:10 | 딥러닝 세계에 끼어 들기 위한 고등학생의 분투기 |    이수민   |
-| 15:10 ~ 15:20 |                      휴식                      |             |
-| 15:20 ~ 16:00 |                                                |             |
-| 16:00 ~ 16:10 |                      휴식                      |             |
-| 16:10 ~ 16:50 |       CNN을 이용한 PUBG 총기소리 분류하기      |    강천성   |
-| 16:50 ~ 17:00 |                      휴식                      |             |
-| 17:00 ~ 17:20 |                  라이트닝 토크                 |    참석자   |
-| 17:20 ~ 17:40 |                광고 및 경품 추첨               |             |
-|    17:40 ~    |                 뒷정리 및 종료                 | 참석자 전원 |
--->
-<img src="{{ site.baseurl }}/assets/imgs/schedule.png" style="max-width: 100%; height: auto;">
+<div style="overflow: auto;" align="center">
+<div class="program">
+    <table cellspacing="0" cellpadding="0" border="2">
+      <colgroup>
+        <col width="110px ">
+        <col width="70%">
+      </colgroup>
+      <tbody>
+        <tr>
+          <th class="section">시간</th>
+          <td class="section">행사 내용</td>
+        </tr>
+{% assign orders = site.sessions | group_by: order %}
+{% for order in orders  %}
+{% assign session = order.items[0] %}
+        <tr>
+          <th>{{ session.time }}</th>
+          <td>
+          {% if session.href == true %}
+            <a href="{{ site.baseurl }}{{ session.url }}">{{ session.title }}</a>
+          {% else %}
+            {{ session.title }}
+            {{ session.href }}
+          {% endif %}
+            <span class="fontNameTitle">
+            {% for speaker in session.speakers %}
+              <li style="list-style-type: none;">{{ speaker.name }} - {{ speaker.org }}</li>
+            {% endfor %}
+            </span>
+          </td>
+        </tr>
+{% endfor %}
+      </tbody>
+    </table>
+</div>
+</div>
