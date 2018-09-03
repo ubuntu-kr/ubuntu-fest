@@ -4853,7 +4853,7 @@ tbody.collapse.show {
 
 .badge-secondary {
   color: #fff;
-  background-color: #6c757d;
+  background-color: #333333;
 }
 
 .badge-secondary[href]:hover, .badge-secondary[href]:focus {
