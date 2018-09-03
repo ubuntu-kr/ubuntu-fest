@@ -3,11 +3,14 @@
 
 div.program table {
   width: 100%;
-  line-height: 18px;
-  border: 0;
+  /* line-height: 18px; */
+  /*border: 0;*/
+  border-top: 1px solid #AEA79F;
+  border-left: 1px solid #AEA79F;
+  border-right: 1px solid #AEA79F;
+  border-bottom: 1px solid #AEA79F;
   margin: 0 0 40px 0;
   padding: 0;
-  border-bottom: 1px solid #000;
   font-size: 15px;
   text-align: center;
   border-collapse: collapse;
@@ -15,7 +18,7 @@ div.program table {
 }
 div.program table tr th {
   padding: 12px 0;
-  border-top: 1px solid #000;
+  border-top: 1px solid #AEA79F;
   font-weight: bold;
   color: #000;
   vertical-align: middle;
@@ -25,17 +28,17 @@ div.program table tr th:first-child {
 }
 div.program table tr td {
   padding: 12px 0;
-  border-top: 1px solid #000;
-  border-left: 1px solid #000;
+  border-top: 1px solid #AEA79F;
+  border-left: 1px solid #AEA79F;
   font-weight: bold;
   vertical-align: middle;
-  color: #000000;
+  color: #000;
 }
 div.program table .section {
-  color: #000;
-  background: #f6c143;
+  color: #ffffff;
+  background: #E95420;
 }
 div.program table .fontNameTitle {
   display: block;
-  color: #868e96;
+  color: #772953;
 }
