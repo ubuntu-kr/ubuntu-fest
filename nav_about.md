@@ -5,7 +5,7 @@ title: ": Info"
 permalink: /about/
 ---
 # Ubuntu Fest
-> 우분투 페스트는 대전에서 여름과 겨울에 열리는 우분투 사용자를 위한 축제입니다. 
+> 우분투 페스트는 대전에서 여름과 겨울에 열리는 우분투 사용자를 위한 축제입니다.
 우분투 페스트 준비위원들은 우분투정신과 행동강령에 의거 매년 다양한 주제와 새로운 아이디어로 행사를 기획하고 있으며, 여러분들의 적극적인 참여와 즐거움을 위해 노력하고 있습니다.
 
 ## Ubuntu Fest - 우분투와 딥러닝
@@ -13,9 +13,7 @@ permalink: /about/
 본 행사는 딥러닝에관심이 있는 초보자, 우분투를 사용하고있으나 딥러닝은 접해보지 못한 사용자들에게 해당 기술의 기초적인 지식과 최신동향을 소개하는 시간이 될 것 입니다.
 여기에 더해 딥러닝 프로젝트를 진행하는데에 있어 더욱 쉽게 만들어주는 도구중 하나인 우분투를 소개하고 우분투에서 딥러닝을 시작하는 법에 대해 소개할 것입니다.
 
-
-[일정](https://fest.ubuntu-kr.org/schedules/)<br/>
-[등록하기](https://festa.io/)
+<a class="btn btn-primary" href="https://fest.ubuntu-kr.org/schedules/" role="button"><i class="far fa-calendar-alt"></i> {{include.label}}일정</a>&nbsp;<a class="btn btn-primary" href="https://fest.ubuntu-kr.org/schedules/" role="button"><i class="fas fa-ticket-alt"></i> {{include.label}}등록하기</a><br/>
 
 ## Co-host
 이번 우분투 페스트는 우분투 페스트가 시작한 이래 처음으로 다른 커뮤니티들과 협력하여 진행하는 행사입니다.
