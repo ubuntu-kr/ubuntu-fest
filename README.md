@@ -68,6 +68,7 @@ $ git remote -v
 |   └── webfonts
 ├── nav_about.md // 소개
 ├── nav_contact.md // 문의
+├── nav_history.md // 역사
 ├── nav_location.md // 장소
 ├── nav_registration.md // 등록 - not use
 ├── nav_schedules.md // 일정
