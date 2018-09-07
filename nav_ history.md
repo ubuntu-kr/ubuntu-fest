@@ -14,8 +14,8 @@ permalink: /history/
 
 ![텍스트](https://lh3.googleusercontent.com/J9NPJ2Pnnbgo6XE8D56AKqwNhx98s0X618rKPMtfpMHsS6fwkfge-JWhvLnfo_TwW04jWFyGPyizKLoB5vDHQQ_G6HTWe4Av_wbHQgjf2OI2wxOa6-8wEpC6OfQiU44HkwUW9owUk-y4umBPyBBRmhIZGeanY-5aAvChzNvhRcIN_QMoBq2RRdxiObRPBjVekf0T61MLbCbGM4HopoHiGWhbSFjsdKzqpYmFM0jbgcUKGt4UGSfHAamf09E_DZV6yI9Ue8W-F1v-Gef67lpI1s1upuv2qHj9BtJOwGPLQf2lip6DQVEQmofQjtzb5osR6Siu3Nvw-neVDd1SZEjcA5DCU0xGaQMuNIpYhBVkN2fKJRw63OCV32fgtNiCvk4jeV1sZdtWTvscZfXEuJOo9UDuFs9ElNJNFGzf0nl_US3avGrj6jVpnbr49AgmA_Bo1Ik4tZNSF5zp5RPmUgWXy33IF8PnhRrgAOyTJW4vxzIW_meZTlLx9xZ_NFYGZgH9y6OuBhlRRv8JfTK227rtJdybbQjxXssSZlIOk6lP-in-1zIhXJIaNJfam_paKKL1An7MyTKup9PDdaccA_xpimxeraxLD390cY3f_GmCcF5-PHXpVld_n-MXb91QEaWp7tTl2xNe06F5HErNU4NHonDe-dj5ym7ghzFuIrnNQ1x5G5BeNd8Q1Ld4=w1688-h949-no){: width="50%" height="50%"}
 
-발표자료는 다음 링크에 있습니다.
-[미정님 '모바일에 딥러닝 심기'](https://www.slideshare.net/UbuntuKorea/ss-102920185)
-[신근수님 ‘기계들의 소셜미디어, MQTT’](https://www.slideshare.net/UbuntuKorea/mqtt-102921138)
-[신하륜님 ‘스타트업에서 하드웨어 개발 프로세스 도입하기’](https://www.slideshare.net/UbuntuKorea/ss-102922171)
-[김한욱님 ‘Code-based design VS Model-based design’](https://www.slideshare.net/UbuntuKorea/ss-102920185)
+발표자료는 다음 링크에 있습니다.<br/>
+- [미정님 '모바일에 딥러닝 심기'](https://www.slideshare.net/UbuntuKorea/ss-102920185)
+- [신근수님 ‘기계들의 소셜미디어, MQTT’](https://www.slideshare.net/UbuntuKorea/mqtt-102921138)
+- [신하륜님 ‘스타트업에서 하드웨어 개발 프로세스 도입하기’](https://www.slideshare.net/UbuntuKorea/ss-102922171)
+- [김한욱님 ‘Code-based design VS Model-based design’](https://www.slideshare.net/UbuntuKorea/ss-102920185)
