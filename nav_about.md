@@ -13,7 +13,7 @@ permalink: /about/
 본 행사는 딥러닝에관심이 있는 초보자, 우분투를 사용하고있으나 딥러닝은 접해보지 못한 사용자들에게 해당 기술의 기초적인 지식과 최신동향을 소개하는 시간이 될 것 입니다.
 여기에 더해 딥러닝 프로젝트를 진행하는데에 있어 더욱 쉽게 만들어주는 도구중 하나인 우분투를 소개하고 우분투에서 딥러닝을 시작하는 법에 대해 소개할 것입니다.
 
-<a class="btn btn-primary" href="https://fest.ubuntu-kr.org/schedules/" role="button"><i class="far fa-calendar-alt"></i> {{include.label}}일정</a>&nbsp;<a class="btn btn-primary" href="https://fest.ubuntu-kr.org/schedules/" role="button"><i class="fas fa-ticket-alt"></i> {{include.label}}등록하기</a><br/>
+<a class="btn btn-primary" href="https://fest.ubuntu-kr.org/schedules/" role="button"><i class="far fa-calendar-alt"></i> {{include.label}}일정보기</a>&nbsp;<a class="btn btn-primary" href="https://fest.ubuntu-kr.org/schedules/" role="button"><i class="fas fa-ticket-alt"></i> {{include.label}}등록하기</a><br/>
 
 ## Co-host
 이번 우분투 페스트는 우분투 페스트가 시작한 이래 처음으로 다른 커뮤니티들과 협력하여 진행하는 행사입니다.
