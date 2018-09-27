@@ -11,7 +11,7 @@ owner: ubuntu-daejeon
 
 # Location & time
 period: "2018년 11월 10일"
-period-time: "오후 13:00 ~ 오후 18:00"
+period-time: "PM 1:00 ~ PM 6:00"
 location: "충남대학교 공대 1호관 취봉홀"
 address: "대전광역시 유성구 궁동 대학로 99"
 location_query: "충남대학교"
