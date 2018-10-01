@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ": History"
-#icon: <i class="fas fa-users"></i><i class="far fa-handshake"></i>
+title: "- History"
+icon: <i class="fas fa-file-alt"></i>
 permalink: /history/
 ---
 # Ubuntu Fest

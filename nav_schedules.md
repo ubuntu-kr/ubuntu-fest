@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ": Schedules"
-#icon: <i class="fas fa-info-circle"></i>
+title: "- Schedules"
+icon: <i class="fas fa-calendar"></i>
 permalink: /schedules/
 ---
 <div class="alert alert-info" role="alert">

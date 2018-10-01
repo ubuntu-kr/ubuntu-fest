@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ": Location"
-#icon: <i class="fas fa-map"></i><i class="fas fa-map-marker-alt"></i>
+title: "- Location"
+icon: <i class="fas fa-map"></i>
 permalink: /location/
 ---
 # {{ site.location }}

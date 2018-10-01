@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ": Info"
-#icon: <i class="fas fa-users"></i><i class="far fa-handshake"></i>
+title: "- Info"
+icon: <i class="fas fa-info-circle"></i>
 permalink: /about/
 ---
 # Ubuntu Fest
