@@ -27,7 +27,7 @@ permalink: /schedules/
           <th>{{ session.time }}</th>
           <td>
           {% if session.href == true %}
-            <a {{ session.title }}</a><a class="btn btn-primary" href="{{ site.baseurl }}{{ session.url }}" role="button"> {{ include.label }} 연사정보</a>
+            {{ session.title }}<a class="btn btn-primary" href="{{ site.baseurl }}{{ session.url }}" role="button"> {{ include.label }} 연사정보</a>
           {% else %}
             {{ session.title }}
             {{ session.href }}
