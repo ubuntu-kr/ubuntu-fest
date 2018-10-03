@@ -31,3 +31,9 @@ permalink: /history/
 - [신하륜님 ‘스타트업에서 하드웨어 개발 프로세스 도입하기’](https://www.slideshare.net/UbuntuKorea/ss-102922171)
 - [김한욱님 ‘Code-based design VS Model-based design’](https://www.slideshare.net/UbuntuKorea/ss-102920185)
 <!-- 한욱님 링크 수정 필요 -->
+
+## 제 2회 Ubuntu fest
+* 주제 : 우분투와 인공지능
+* 일시 : 2018년 11월 10일 (토) 오후 1:00 - 오후 6:00
+* 장소 : 충남대학교 공대 1호관 취봉홀
+* 등록 : [Festa.io](https://festa.io/events/94)
