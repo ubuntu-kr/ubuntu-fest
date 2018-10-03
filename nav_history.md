@@ -4,6 +4,7 @@ title: "- History"
 icon: <i class="fas fa-file-alt"></i>
 permalink: /history/
 ---
+<a id="top" href="#top">*</a>
 # Ubuntu Fest
 우분투 페스트는 2018년 여름을 1회로 매년 2회씩 대전에서 열리는 세미나입니다.
 우분투를 알리고 우분투에서 어떤것을 어떻게 할 수 있는지와 새로운 기술들에 대해 다룹니다.
@@ -14,6 +15,7 @@ permalink: /history/
 
 ---
 
+<a id="1" href="#top">1. </a>
 ## 제 1회 Ubuntu fest
 * 주제 : 우분투와 임베디드
 * 일시 : 2018년 06월 23일 (토) 오후 1:00 - 오후 6:00
@@ -32,6 +34,7 @@ permalink: /history/
 - [김한욱님 ‘Code-based design VS Model-based design’](https://www.slideshare.net/UbuntuKorea/ss-102920185)
 <!-- 한욱님 링크 수정 필요 -->
 
+<a id="1" href="#top">2. </a>
 ## 제 2회 Ubuntu fest
 * 주제 : 우분투와 인공지능
 * 일시 : 2018년 11월 10일 (토) 오후 1:00 - 오후 6:00
