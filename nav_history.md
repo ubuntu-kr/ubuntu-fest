@@ -6,11 +6,11 @@ permalink: /history/
 ---
 
 # Ubuntu Fest
-우분투 페스트는 2018년 여름을 1회로 매년 2회씩 대전에서 열리는 세미나입니다.
-우분투를 알리고 우분투에서 어떤것을 어떻게 할 수 있는지와 새로운 기술들에 대해 다룹니다.
+우분투 페스트는 2018년 여름을 1회로 매년 2회씩 대전에서 열리는 세미나입니다.<br/>
+우분투를 알리고 우분투에서 어떤것을 어떻게 할 수 있는지와 새로운 기술들에 대해 다룹니다.<br/>
 매년 다양한 주제로 행사를 준비하고 있습니다. 행사 내역은 다음과 같습니다.<br/>
 
-<a class="btn btn-primary" href="https://fest.ubuntu-kr.org/history/#1" role="button"><i class="far fa-file-alt"></i> {{include.label}}Ubuntu fest 우분투와 임베디드</a>&nbsp;
+<a class="btn btn-primary" href="https://fest.ubuntu-kr.org/history/#1" role="button"><i class="far fa-file-alt"></i> {{include.label}}Ubuntu fest 우분투와 임베디드</a> <br/><br/>
 <a class="btn btn-primary" href="https://fest.ubuntu-kr.org/history/#2" role="button"><i class="far fa-file-alt"></i> {{include.label}}Ubuntu fest 우분투와 딥러닝</a> <br/>
 
 ---
