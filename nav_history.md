@@ -4,18 +4,17 @@ title: "- History"
 icon: <i class="fas fa-file-alt"></i>
 permalink: /history/
 ---
-<a id="top" href="#top">*</a>
+
 # Ubuntu Fest
 우분투 페스트는 2018년 여름을 1회로 매년 2회씩 대전에서 열리는 세미나입니다.
 우분투를 알리고 우분투에서 어떤것을 어떻게 할 수 있는지와 새로운 기술들에 대해 다룹니다.
 매년 다양한 주제로 행사를 준비하고 있습니다. 행사 내역은 다음과 같습니다.<br/>
 
-<!-- [우분투와 임베디드](https://fest.ubuntu-kr.org/history/#%EC%9A%B0%EB%B6%84%ED%88%AC%EC%99%80-%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C) <br/> -->
-<!-- 행사 이후 계속 추가 -->
+<a class="btn btn-primary" href="https://fest.ubuntu-kr.org/history/#1" role="button"><i class="far fa-file-alt"></i> {{include.label}}Ubuntu fest 우분투와 임베디드</a> <br/>
+<a class="btn btn-primary" href="https://fest.ubuntu-kr.org/history/#2" role="button"><i class="far fa-file-alt"></i> {{include.label}}Ubuntu fest 우분투와 딥러닝</a> <br/>
 
 ---
-
-<a id="1" href="#top">1. </a>
+<a id="1"></a>
 ## 제 1회 Ubuntu fest
 * 주제 : 우분투와 임베디드
 * 일시 : 2018년 06월 23일 (토) 오후 1:00 - 오후 6:00
@@ -33,10 +32,9 @@ permalink: /history/
 - [신하륜님 ‘스타트업에서 하드웨어 개발 프로세스 도입하기’](https://www.slideshare.net/UbuntuKorea/ss-102922171)
 - [김한욱님 ‘Code-based design VS Model-based design’](https://www.slideshare.net/UbuntuKorea/ss-102920185)
 <!-- 한욱님 링크 수정 필요 -->
-
-<a id="1" href="#top">2. </a>
+<a id="2"></a>
 ## 제 2회 Ubuntu fest
-* 주제 : 우분투와 인공지능
+* 주제 : 우분투와 딥러닝
 * 일시 : 2018년 11월 10일 (토) 오후 1:00 - 오후 6:00
 * 장소 : 충남대학교 공대 1호관 취봉홀
 * 등록 : [Festa.io](https://festa.io/events/94)
