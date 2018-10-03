@@ -27,14 +27,16 @@ permalink: /schedules/
           <th>{{ session.time }}</th>
           <td>
           {% if session.href == true %}
-            {{ session.title }} <br/> <a class="btn btn-light" href="{{ site.baseurl }}{{ session.url }}" role="button"> {{ include.label }} 세션 정보</a>
-          {% else %}
+            {{ session.title }}
+            {% else %}
             {{ session.title }}
             {{ session.href }}
           {% endif %}
             <span class="fontNameTitle">
             {% for speaker in session.speakers %}
               <li style="list-style-type: none;">{{ speaker.name }} - {{ speaker.org }}</li>
+                <a class="btn btn-primary" href="{{ site.baseurl }}{{ session.url }}" role="button"> {{ include.label }} 세션 정보</a>
+          
             {% endfor %}
             </span>
           </td>
