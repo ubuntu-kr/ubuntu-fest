@@ -5,7 +5,7 @@ icon: <i class="fas fa-handshake"></i>
 permalink: /supporters/
 ---
 <section class="page-header" style="padding-bottom:1px">
-  <div class="container" style="color: #ffffffff">
+  <div class="container" style="color: #ffffff">
     <h1 style="font-size: 3em;">{{ page.icon }}{{ page.title }}</h1>
     <p>행사를 열고 진행하는데 도움을 주신 분들입니다.</p>
   </div>
