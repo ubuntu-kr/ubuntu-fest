@@ -35,3 +35,4 @@ permalink: /about/
 - 참가 등록 시기를 놓쳐 사전에 등록을 못하셨어도, 현장에서 참가 등록을 하실 수 있습니다.
 
 ## 광고
+- Python을 이용한 Linux Desktop Application 기초 (2018.12.15 13:00, 충남대 인근)
