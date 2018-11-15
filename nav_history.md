@@ -42,3 +42,14 @@ permalink: /history/
 * 일시 : 2018년 11월 10일 (토) 오후 1:00 - 오후 6:00
 * 장소 : 충남대학교 공대 1호관 취봉홀
 * 등록 : [Festa.io](https://festa.io/events/94)
+
+
+![텍스트](https://lh3.googleusercontent.com/nkQincgAWYyJayXxdUleQcJ0OszWqiP9NTZLHD4zt_kyVE5UO4U7RqelV1WSpQvySwIXRJSuowgB1-N2uSMxJBJrnTx5U3e1NcP-NEF8pef2EvfRfXo9eaSkLNYzfSBGMSGQl0jkWOBUEGQOwf67K-nQl3OATY0KMerSj1m9dXNjQ0ohdD-_aswHiJsWp-SOjK7FuyILWokLuIFG-2HvegCzEPUYUYogbQsJVapE11Mn5TgGD6rQekRozp3UnXtNEMIe5WqxBZ4efHe9ME8kU5KbMEw1O2VVkjLIaQmPpsYLVqwxWNka3tLnMQ430XBIH_-kgCeho1K3tHw1CLxg7B1RgO1Bjs1Fmkus32xuXtwhJQntVqt1yValpwCJNZtBsX-z60dKsVJBH1YS_1hwJdK7a8MdNpc5XUaJI3ebBxTAVqeNUWFiujrhZ53gEuxt8cJZqYqkENSCfhOev_81EVXvUNJEoHu7W2bERyx-uD0FD57tXzga6btAuAX4u5hqmf5tWHv7zx86QrBq4nDW7CRVP17f9RqJWXTLw-qU6sEoK8dY8TNknUg_HvRuzRk9wbI1AcMfDfe78VEKDi11tfb3l9nAFXWR2Kh3An0f7oAheJsBC4SV4ElBuZ4O67o3Fyf85l3mqZWPXgzHX3YBFiJDY7E3TK_GYi1t2YGfuIsQoyIeVFV0MNVQ__lVJHHL8ByrqrVFO0MM2BSBeJI=w960-h720-no){: width="100%" height="100%"}
+
+![텍스트](https://lh3.googleusercontent.com/OZIrkZgRAJNUYJ67QDnuOJfa1tFWk8isWchNqCnlBbe0V7q7Umm92Go0A_A23jYpLJTdLjVnTix2-SlTU3qnq5L8V6M4sxjrGD-cD4B-udy7cFZDVwzLRUiU3_zyq72MPgRH7bZzi3IC22-xA0SHrnFKivnkwbiClrqR-mNTgOYkoQGj2SWs3s_F3WzAdy0sZuLufORNi4A9_vxQlFsC_uWGrCjgGB0MB-xqkImgdodga48SqMHhjGu3R_JR-VGbD2iRTpcE8pGo4_1ocNvQrwF9wGLVRLsMZQ56VCie4fmjqT5q78Y7qTWKee0caij7hT0zPDaLBPYFyKtWc9Bzp-ibUYbuTCGyhWfNL5sOG_MKZw6uuZ_1duoA02W1WpiQScGM4p6G7JL7hHpCyjt4gAHMiUKF3NDGsKdKW9iRlKkI7vJ6D4d7_9Or9zLqEmNXDWZ0FR4_RMGeAgJooCyBMgyOyg5ubbWpTQ_jCRsiuNkjMMpsajE8L8Xxx0kvbBPOmMmaOYNwaPFG4u2tMG-p5BUr55FLYByGegWsGX4QaHIsWXB2pPOAxjA5V-lO_-Of7p6JPszM0d1BF29BsbIat1RCqcIr8WPq-JGhiLxNE5KuA0WjoHc9RdFwcxQ__IGZXFMV88iDfc8XVwGrk4KUBd2XRRitkeTdH8vRtd1s3Ufl55uaJS0KjsUUz4zRkX3SSqGvNa--uI9lmzGkdfs=w1259-h944-no){: width="100%" height="100%"}
+
+### 발표자료
+- [임근영님 'Malware Dataset & Ubuntu'](https://www.slideshare.net/UbuntuKorea/malware-dataset-ubuntu)
+- [이수민님 ‘딥러닝 세계에 끼어들기 위한 고등학생의 분투기’](https://www.slideshare.net/UbuntuKorea/ss-122568570)
+- [김승태님 ‘케라스와 함께하는 재밌는 딥러닝 활용 사례들’](https://www.slideshare.net/UbuntuKorea/ss-122568592)
+- [강천성님 ‘나의 우분투 이야기’](https://www.slideshare.net/UbuntuKorea/ss-122568665)
