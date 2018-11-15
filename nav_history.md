@@ -34,6 +34,11 @@ permalink: /history/
 - [김한욱님 ‘Code-based design VS Model-based design’](https://www.slideshare.net/UbuntuKorea/ss-102920185)
 <!-- 한욱님 링크 수정 필요 -->
 
+
+<a role="button" class="btn btn-primary btn-lg btn-primary"
+  href="https://photos.google.com/share/AF1QipNfoD6NeFL0aEEcF5lA0fuO6quXPkId7SaaHOZ8HBgUKtWCwmWn1shU9Cqs7dJf_A?key=TFRwMVdjSFdsSFppRmZNeEZoMDg2UXhBQlEyN0Z3">
+<i class="fas fa-images"></i> 사진 보러가기</a>
+
 ---
 <a id="2"></a>
 
@@ -53,3 +58,7 @@ permalink: /history/
 - [이수민님 ‘딥러닝 세계에 끼어들기 위한 고등학생의 분투기’](https://www.slideshare.net/UbuntuKorea/ss-122568570)
 - [김승태님 ‘케라스와 함께하는 재밌는 딥러닝 활용 사례들’](https://www.slideshare.net/UbuntuKorea/ss-122568592)
 - [강천성님 ‘나의 우분투 이야기’](https://www.slideshare.net/UbuntuKorea/ss-122568665)
+
+<a role="button" class="btn btn-primary btn-lg btn-primary"
+  href="https://photos.google.com/share/AF1QipMqo1F24NLH50wH-1RoWgEwnvtVw8VQzVuX72AnxznzITnAyQIe0NF8hchxfVvJ3Q?key=YTAxOUtzWTAtMTVhaDNpaXY2RkpyRTZsWjhEbG9B">
+<i class="fas fa-images"></i> 사진 보러가기</a>
