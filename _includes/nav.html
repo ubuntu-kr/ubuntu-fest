@@ -1,43 +1,49 @@
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark navbar-inverse">
   <div class="container">
 
-  <a class="navbar-brand" href="{{ site.baseurl }}/">Ubuntu Fest</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <a class="navbar-brand" href="{{ site.baseurl }}/">Ubuntu Fest</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="{{ site.baseurl }}/about/">소개<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{ site.baseurl }}/schedules/">일정</a>
-      </li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/about/">소개<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/schedules/">일정</a>
+        </li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="{{ site.baseurl }}/location/">장소</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{ site.registration-url }}">등록</a>
-      </li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/location/">장소</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.registration-url }}">등록</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
 <!--
-      <li class="nav-item">
-        <a class="nav-link" href="{{ site.baseurl }}/supporters/">주최</a>
-      </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/supporters/">주최</a>
+        </li>
 -->
-      <li class="nav-item">
-        <a class="nav-link" href="{{ site.baseurl }}/history/">역사</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="mailto:korea.ubuntu@gmail.com">문의</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://github.com/ubuntu-kr/ubuntu-fest">GitHub</a>
-      </li>
-    </ul>
-  </div>
-  </div>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/history/">역사</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:korea.ubuntu@gmail.com">문의</a>
+        </li>
+	<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">참고<span class="caret"></span></a>
+          <ul class="dropdown-menu bg-dark">
+            <li class="nav-item">
+	      <a class="nav-link" href="https://github.com/ubuntu-kr/ubuntu-fest">GitHub</a></li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="{{ site.baseurl }}/license/">라이선스</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>  
 </nav>
