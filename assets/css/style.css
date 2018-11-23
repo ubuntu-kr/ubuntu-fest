@@ -65,7 +65,7 @@
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(https://static.techspot.com/fileshost/newspics3/2011/ubuntu_crowd.jpg) no-repeat center center/cover;
+  background: url(/) no-repeat center center/cover;
   display: table;
 }
 .site-header::before {
