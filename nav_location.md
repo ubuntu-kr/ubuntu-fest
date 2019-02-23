@@ -12,4 +12,8 @@ permalink: /location/
        &nbsp;
 <h3 style="text-align:center">취봉홀 전경 ▼ </h3>
 <img src="{{ site.baseurl }}/assets/imgs/CNU-spot.jpg" style="width:100%">
---> Comming Soon
+-->
+
+<div class="alert alert-info" role="alert">
+  Comming Soon.
+</div>
