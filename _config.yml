@@ -3,7 +3,7 @@ email: korea.ubuntu@gmail.com
 description: 우분투와 정보 보안
 baseurl: ""
 url: "https://fest.ubuntu-kr.org"
-registration-url: ""
+registration-url: "https://festa.io/events/291"
 github_username: ubuntu-fest
 
 copyright: MIT License
