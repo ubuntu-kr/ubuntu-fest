@@ -10,7 +10,8 @@ permalink: /location/
   ㅤㅤㅤ
        &nbsp;
        &nbsp;
-
+<!--
 <div class="alert alert-info" role="alert">
   Comming Soon.
 </div>
+-->
