@@ -62,3 +62,25 @@ permalink: /history/
 <a role="button" class="btn btn-primary btn-lg btn-primary"
   href="https://photos.google.com/share/AF1QipMqo1F24NLH50wH-1RoWgEwnvtVw8VQzVuX72AnxznzITnAyQIe0NF8hchxfVvJ3Q?key=YTAxOUtzWTAtMTVhaDNpaXY2RkpyRTZsWjhEbG9B">
 <i class="fas fa-images"></i> 사진 보러가기</a>
+
+---
+<a id="2"></a>
+
+## 제 2회 Ubuntu fest
+* 주제 : 우분투와 정보보안
+* 일시 : 2019년 5월 25일 (토) 오후 1:00 - 오후 6:00
+* 장소 : 충남대학교 공대 5호관 410호
+* 등록 : [Festa.io](https://festa.io/events/291)
+![텍스트](){: width="100%" height="100%"}
+
+![텍스트](){: width="100%" height="100%"}
+
+### 발표자료
+- 이민준님 '4차 산업혁명과 모바일 포렌식'(발표자료 공개 비동의)
+- [김성민님 ‘메모리 공격의 흥망성쇠’](https://www.slideshare.net/UbuntuKorea/memory-attack-the-memory-attack-techniques)
+- [안이수님 ‘mini session’](https://www.slideshare.net/UbuntuKorea/open-source-and-the-license)
+- [신근수님 ‘mini session’](https://www.slideshare.net/UbuntuKorea/overview-of-the-flatpak)
+
+<a role="button" class="btn btn-primary btn-lg btn-primary"
+  href="https://photos.app.goo.gl/baCftFRbzDNJHzJr7">
+<i class="fas fa-images"></i> 사진 보러가기</a>
